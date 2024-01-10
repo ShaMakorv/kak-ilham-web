@@ -1,0 +1,34 @@
+.navbar {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  position: fixed;
+  transition: 300ms;
+  z-index: 99;
+}
+.navbar img {
+  width: 150px;
+  margin: 0px 0px 0px 60px;
+}
+.navbar ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  top: -50px;
+}
+.navbar ul {
+  text-align: right;
+}
+.navbar ul li a:hover {
+  color: #f28f2a;
+  border-bottom: 2px solid #f28f2a;
+  padding-bottom: 10px;
+  transition: 300ms;
+}

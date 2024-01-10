@@ -1,0 +1,21 @@
+.aksesapp {
+  width: 100%;
+  height: 400px;
+}
+.aksesapp h3 {
+  color: #f28f2a;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.aksesapp h6 {
+  color: rgb(99, 98, 96);
+  text-align: center;
+  margin-top: 20px;
+}
+.aksesapp img {
+  width: 300px;
+  position: relative;
+  left: 43%;
+  margin-top: 20px;
+}

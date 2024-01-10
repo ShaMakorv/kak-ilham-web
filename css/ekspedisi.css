@@ -1,0 +1,24 @@
+.isiekspedisi ul li {
+  display: inline-block;
+  margin-right: -5px;
+  width: 140px;
+  height: 160px;
+  background-color: #f28f2a;
+  text-align: center;
+  align-items: center;
+  line-height: 23px;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: white;
+}
+.eskpedisi img {
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.isiekspedisi li:hover {
+  background-color: #d3802d;
+  box-shadow: 3px 3px 10px #d3802d;
+  transition-duration: 300ms;
+}

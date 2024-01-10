@@ -1,0 +1,19 @@
+.gambarpenghargaan ul li {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.gambarpenghargaan img:hover {
+  transform: scale(1.2);
+  filter: grayscale(1);
+  transition: 300ms;
+}
+
+.gambarpenghargaan img {
+  width: 230px;
+  object-fit: cover;
+  transition: 700ms;
+}
